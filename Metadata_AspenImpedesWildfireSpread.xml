@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--Record created using version 2.1.0 of the USGS Metadata Wizard tool. (https://github.com/DOI-USGS/fort-pymdwizard)-->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Matthew Harris</origin>
+        <pubdate>20250621</pubdate>
+        <title>Data for: Aspen impedes wildfire spread in southwestern United States landscapes</title>
+        <geoform>Code &amp; CSV</geoform>
+        <pubinfo>
+          <pubplace>Zenodo</pubplace>
+          <publish>Zenodo</publish>
+        </pubinfo>
+        <othercit>MntMattH. (2025). MntMattH/Aspen-Impedes-Wildfire-Spread: Data Repository for Harris et al. entitled "Aspen impedes wildfire spread in southwestern United States landscapes" (Version v3.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.15288635</othercit>
+        <onlink>https://doi.org/10.5281/zenodo.15288635</onlink>
+        <onlink>https://github.com/MntMattH/Aspen-Impedes-Wildfire-Spread</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Matthew Harris</origin>
+            <origin>Jonathan Coop</origin>
+            <origin>Jared Balik</origin>
+            <origin>Jessika MacFarland</origin>
+            <origin>Sean Parks</origin>
+            <origin>Camille S. Stevens-Rumann</origin>
+            <pubdate>20250707</pubdate>
+            <title>Aspen impedes wildfire spread in southwestern United States landscapes</title>
+            <geoform>publication</geoform>
+            <onlink>https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eap.70061</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Aspen (Populus tremuloides) forests are generally thought to impede fire spread, yet the extent of this effect is not well quantified in relation to other vegetation types. We examined the influence of aspen cover on interpolated daily fire spread rates, the relative abundance of aspen at fire perimeters versus burn interiors, and whether these relationships shifted under more fire-conducive atmospheric conditions. Our study incorporated 314 fires occurring between 2001 and 2020 in the southwestern United States and a suite of gridded vegetation, topography, and fire weather predictor variables. We found that aspen slows fire progression: as aspen cover on the landscape increased, daily area burned and linear spread rate decreased. Where aspen cover was &lt;10%, daily fire growth averaged 1112 ha/day and maximum linear spread was 2.1 km/day; where aspen exceeded 25%, these values dropped to 368 ha/day and 1.3 km/day. Aspen also serves as a barrier to fire spread, demonstrated through a higher proportion of aspen cover at fire perimeters than in burn interiors. Finally, though favorable fire weather conditions increased fire growth rates, differences between aspens and conifers persisted. Our results affirm that aspen stands can act as a firebreak, with clear applications for vegetation management. For example, interventions that shift conifer to aspen cover could lessen the risk of fire for nearby values at risk (e.g., communities, infrastructure) but still support forest ecosystem function. Further, wildfire-driven conversion from conifer to aspen forest types in some landscapes may produce a negative feedback that could dampen expected increases in fire activity under a warmer and drier climate.</abstract>
+      <purpose>This data was gathered to examine the influence of certain fuel types on fire spread at a landscape scale within the Four Corners Region. This data allows the relation of certain species to fire perimeter formation to be evaluated as well as species prominence to be compared to fire spread metrics. Future research could use this data to inquire about other factors influencing fire spread or focus on other species that impede or support fire spread. </purpose>
+      <supplinf>The data has been compiled from numerous sources and is provided as two csv files in the repository. These csv files represent data sampled from multiple spatial databases primarily extracted using R version 4.3.2. Shape files of fire perimeters were gathered from Monitoring Trends in Burn Severity. Weather and climate data were attained as rasters from the ERA5 reanalysis and TerraClimate datasets. Rasters of vegetation data were gathered from the LANDFIRE Existing Vegetation Type (EVT) dataset. </supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20010101</begdate>
+          <enddate>20200101</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <descgeog>southwestern United States</descgeog>
+      <bounding>
+        <westbc>-124.4800</westbc>
+        <eastbc>-102.0000</eastbc>
+        <northbc>42.0000</northbc>
+        <southbc>31.2700</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Wildfire</themekey>
+        <themekey>conifer</themekey>
+        <themekey>broadleaf forest</themekey>
+        <themekey>stabilizing feedback</themekey>
+        <themekey>forest fuels</themekey>
+        <themekey>fuels treatment</themekey>
+        <themekey>green fuelbreak</themekey>
+        <themekey>quaking aspen</themekey>
+        <themekey>resilience</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:CASC-15708737</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>fire</themekey>
+        <themekey>climate change</themekey>
+      </theme>
+      <place>
+        <placekt>Common Geographic Areas</placekt>
+        <placekey>New Mexico</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Colorado</placekey>
+      </place>
+    </keywords>
+    <accconst>No access constraints. Please see 'Distribution Information' for details.</accconst>
+    <useconst>These data are marked with a Creative Commons Zero v1.0 Universal (CC0-1.0) public domain dedication and do not have any use constraints. Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.
+
+This dataset was constructed specifically for the analysis described in Harris et al. 2025, thus it has multiple variables that are focused on the goals of this analysis. This dataset would work well if you are querying similar topics such as assessing the influence of different vegetation types on fire spread within this region. However, if your goals are outside the scope of this analysis either geographically or methodologically the data may not be as practical. In either case the R scripts provide a detailed look at how the methods and analysis described in Harris et al. 2025 were used to inquire about the influence of aspen on fire spread and cessation. If you have questions regarding this dataset or the methods used in our publication, please contact Matthew Harris at matthew.harris@western.edu. Thank you.  </useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Matthew Harris</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>42499 Sterling Highway</address>
+          <city>Soldotna</city>
+          <state>Alaska</state>
+          <postal>99669</postal>
+        </cntaddr>
+        <cntvoice>719-440-7246</cntvoice>
+        <cntemail>matthew.harris@western.edu </cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Support &amp; Funding: U.S. Geological Survey Southwest Climate Adaptation Science Center (subaward 678348), Western Colorado University, the Bureau of Land Management, and the Western Wildland Environmental Threat Assessment Center.</datacred>
+    <native>R Studio</native>
+    <crossref>
+      <citeinfo>
+        <origin>Sean A. Parks</origin>
+        <pubdate>20140203</pubdate>
+        <title>Mapping day-of-burning with coarse-resolution satellite fire-detection data</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>International Journal of Wildland Fire</sername>
+          <issue>vol. 23, issue 2</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>CSIRO Publishing</publish>
+        </pubinfo>
+        <othercit>ppg. 215-223</othercit>
+        <onlink>https://doi.org/10.1071/WF13138</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The datasets this project used have undergone accuracy assessments of their own prior to this data becoming available. Upon congregating these datasets spot checks were performed to ensure the data was accurate. </attraccr>
+    </attracc>
+    <logic>See publication. </logic>
+    <complete>The fires in our analysis were restricted to those within the following Environmental Protection Agency Level III Ecoregions: the Arizona/New Mexico Mountains, Madrean Archipelago, Southern Rockies, and Wasatch and Uinta Mountains (U.S. Environmental Protection Agency, 2013). We further restricted the number of fires we analyzed by having a minimum percent of aspen cover within the fire perimeter. Fires with less 0.1% of the aspen forest type were not used in the analysis. Additionally, in the spread analysis we used other models that further restricted the minimum amount of aspen cover to gain a greater understanding of the influence of aspen where it is more abundant. The total number of fires in these models are as follows: 0.1% aspen cover (N = 1687), &gt;5% aspen cover (N = 669), and &gt;10% aspen cover (N = 404). The perimeter analysis was also restricted to 0.1% aspen cover (N = 314). </complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Sean A. Parks</origin>
+            <pubdate>20140203</pubdate>
+            <title>Mapping day-of-burning with coarse-resolution satellite fire-detection data</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>International Journal of Wildland Fire</sername>
+              <issue>vol. 23, issue 2</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>CSIRO Publishing</publish>
+            </pubinfo>
+            <othercit>ppg. 215-223</othercit>
+            <onlink>https://doi.org/10.1071/WF13138</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140203</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Methods</srccitea>
+        <srccontr>Methods</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Below is a simplified sequence of the data processing steps used to create these datasets. See the two R scripts in this data repository for a detailed description of how the data was processed. The data processing for this project was extensive and complex if you have questions about a specific step, please contact Matthew Harris.
+
+Perimeter Analysis Data Processing Steps: 
+1. Download and import landcover data from the LANDFIRE database.
+2. Download and import fire perimeters from the MTBS database. 
+3. Use a loop to reclassify landcover into 10 cover classes based on the most recent LANDFIRE data (data in this repository has already been reclassified as described above). 
+4. Subsample fires with greater than 0.1% aspen (selection method used in our analysis). 
+5. Create two 60-meter buffers on either side of the fire perimeter to define interior and exterior buffer zones. 
+6. Sample landcover within these perimeter zones recording the number of pixels for any given landcover type within each zone for all fire events. 
+7. Use these landcover pixel counts to create interior and perimeter proportions. Generate landcover proportions (area occupied by any given type/total area sampled in each buffer zone) for each of the same set of 10 vegetation types described above (aspen, cool conifer, etc.).
+8. Use landcover proportions to calculate the Fire Perimeter Effect 
+9. Now statistical analysis begins using these FPE values. Perform a sign test using the sign() function from the base R package, in which a negative difference (FPE below zero) or a positive difference (FPE above zero) is assigned to each vegetation type per fire; 
+10. Use an exact binomial test from the base R package to evaluate the summary of these differences (number of + and − differences across all fires) 
+11. To reduce the probability of Type I error in testing for an effect of 11 different types, we applied a Bonferroni correction to adjust our significance threshold to p &lt; 0.0045 (α = 0.05/11).
+12. To examine the influence of weather and climate on FPE values you’ll need to assimilate these variables into this dataset based on the unique Event_IDs of each of these fires. If using our data values representing mean FWI, FWI z-scores, mean ISI, ISI z-scores, and CWD z-scores are included based on assessment of the most influential covariates. If examining other covariates, we recommend a 0.1% random sample within each fire event to reduce spatial autocorrelation, using mean values as predictor variables. 
+13. Use linear models to assess the influence of weather and climate variables on FPE. 
+14. Use a general additive model (GAM) as implemented in the mgcv package (Wood, 2017) to test for a nonlinear relationship between FPE and day-of-year (DOY). 
+15. Assess summary statistics, make figures, draw conclusions, reassess as necessary. 
+</procdesc>
+        <procdate>20250707</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Matthew Harris</cntper>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing</addrtype>
+              <address>NA</address>
+              <city>NA</city>
+              <state>NA</state>
+              <postal>NA</postal>
+            </cntaddr>
+            <cntvoice>NA</cntvoice>
+            <cntemail>matthew.harris@western.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Fire Spread Analysis Data Processing Steps: 
+1. Download and import day of burning (DOB) rasters from Parks (2014). 
+2. Create linear spread rasters based on DOB interpolations. Functionally you are measuring the distance between the shared patch boundary of the previous day to the closest non-shared patch boundary (forming the extent of that day's fire progression) in meters. I recommend looking at the code for this step as doing this across multiple fires necessitates complex loops to account for unique circumstances. 
+3. Download and import landcover data from the LANDFIRE database.
+4. Use the DOB to sample LANDFIRE landcover, reclassify EVTs into group classes as described in Appendix S1: Table S1, then create the group class percent variable by dividing the number of pixels of a certain landcover class by the total number of pixels in that day. This will yield the GC_Percent variable representing the percentage of a given landcover type in a DOB that will be used for comparison to the spread statistics. 
+5. Use a loop to create 0.1% random points for sampling of landcover and covariates within each DOB. 
+6. Download and import all covariates you wish to sample (weather, climate, topography, etc.). In our case we assembled daily weather and climate data from ERA5, monthly variables from TerraClimate, as well as topographic variables from the LANDFIRE dataset and USGS (see data description above). 
+7. Use the 0.1% random points per DOB to sample all daily covariates aligning them by their days ID (DOB_ID) creating a mean per DOB for each variable.
+8. Create a loop to sample monthly covariates using the 0.1% random points aligning the month using the month indicator from the Event_ID. 
+9. Create a master data from comprising the fire spread statistics and all covariates. 
+10. Now statistical analysis begins. We developed linear mixed-effects models as implemented by the glmmTMB package in R (Magnusson et al., 2017) with a Gaussian distribution. Note the fire spread metrics (daily area burned and daily maximum linear spread) are log-normally distributed, we applied a log10 transformation to each prior to analyses. Aspen cover was modeled as a fixed effect; fire event ID was included as a random effect to account for other differences across fires.
+Example model: glmmTMB(log10(DOB_Area_m2)~GC_Percent +(1|Event_ID), family=gaussian, data=Aspen_DOB). 
+11. To test the influence of weather, climate, and topography, we developed models predicting fire spread as a function of aspen cover that included potential interactions with these covariates. For these a top–down model selection approach was used. A Pearson's correlation matrix was used to identify collinearity between variables, with correlated terms (r &gt; 0.3) being removed such that we retained only the term that was individually more predictive. Model fit was assessed using Akaike's information criterion (AIC).
+12. This yielded a series of models that compared the effect of aspen cover on fire spread and the influence of our covariates on this interaction. See the additive term and two-dimension model in the spread analysis R script for an example. 
+13. To gain a greater understanding of the influence of aspen where it is more abundant, we next developed models using subsets of fires with greater minimum thresholds of &gt;5% (N = 669) and &gt;10% aspen cover (N = 404). These subsets were made using a selection of the GC_Percent from the full dataset. The same linear mixed-effects models described above were ran on these subsets of the data. 
+14. To compare the effect of aspen with other cover types we also developed models predicting aerial and linear fire growth for each of our 10 other cover types. Using the same models as described above this can be achieved simply by changing the selection of the group class you are analyzing (see line 758 in the spread analysis R script). 
+15. Assess summary statistics, compare models, make figures, draw conclusions, reassess as necessary. 
+
+</procdesc>
+        <procdate>20250707</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Additional Information:
+
+1. Fire spread metrics were derived from day-of-burning (DOB) interpolations based on the methods of Parks (2014). DOB interpolations are produced using Moderate Resolution Imaging Spectroradiometer (MODIS) and Visible Infrared Imaging Radiometer Suite (VIIRS) fire detections (from https://firms.modaps.eosdis.nasa.gov/active_fire/) to map daily fire progression at a 30-m resolution within the final fire perimeter, acquired from Monitoring Trends in Burn Severity (MTBS; Picotte et al., 2020). DOBs span 2002 to present. Type=Raster.
+2. Final fire perimeters, acquired from Monitoring Trends in Burn Severity (MTBS; Picotte et al., 2020). MTBS perimeters span 1984 to present. Type=Vector.
+3. LANDFIRE Existing Vegetation Type (EVT) data (https://www.landfire.gov/evt.php; LANDFIRE, 2020a, 2022). Five versions of the EVT dataset spanned our study period: 2001, 2012, 2014, 2016, and 2020; we used the EVT version that was the most recent preceding each fire year. Type=Raster.
+4. Daily weather conditions from ERA5 reanalysis dataset (Hersbach et al., 2020). Spans from 1940 to present. Type=Raster.
+5. Monthly climate variables from the TerraClimate dataset (Abatzoglou et al., 2018). Spans 1958 to present. Type=Raster.
+6. Topographic variables from the LANDFIRE dataset (LANDFIRE, 2020a, 2020b) and the USGS ScienceBase-Catalog (Welty &amp; Jeffries, 2018). Type=Raster.
+7. Environmental Protection Agency Level III Ecoregions (U.S. Environmental Protection Agency, 2013). Type=Vector.
+</procdesc>
+        <procdate>20250707</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>This repository hosts the data and code pertaining to the manuscript of Harris et al. entitled "Aspen impedes wildfire spread in southwestern United States landscapes". Two data frames and two R scripts have been provided regarding the fire spread and perimeter analyses featured in this manuscript.
+
+---
+Fire Spread Analysis Data Description (Spread data.csv):
+
+DOB_ID: A fire identification number (MTBS, same as Event_ID) with the day of burning (DOB) attached (e.g., AZ3271210988120040626_182).
+
+Group_Class: The landcover class representing 10 coarse groups: aspen, cool conifer (e.g., spruce–fir forest types), disturbed, herbaceous (including alpine tundra), mixed
+
+aspen–conifer, nonflammable (e.g., bare rock), shrub, warm conifer (e.g., ponderosa pine and dry mixed-conifer), wetland, and woodland (mostly pinyon–juniper) that were reclassified from the LANDFIRE Existing Vegetation Type (EVT) dataset.
+
+GC_Percent: Percent of a given landcover class in that DOB.
+
+Event_ID: A unique fire identification number representing each fire perimeter indicating the ignition date and state (e.g., AZ3136211025519880610).
+
+DOB_Area_m2: daily area burned in square meters. Daily area burned is the total area within a DOB patch corresponding to a single 24-h period as interpolated from MODIS and VIIRS fire detections.
+
+DOB_Avg_DS: average daily linear spread in meters. Daily linear spread for any given day is measured as the rasterized distance (in meters) from the shared patch boundary of the previous day to the closest non-shared patch boundary (forming the extent of that day's fire progression). The average is calculated from the spread values of all pixels within that DOB.
+
+DOB_Max_DS: maximum daily linear spread in meters. Daily linear spread is measured as described above. The maximum daily linear spread value represents the highest spread value pixel within that DOB.
+
+bui_raw: Build up index values representing the average BUI for a given DOB from the ERA5 reanalysis dataset.
+
+dsr_raw: Daily severity rating values representing the average DSR for a given DOB from the ERA5 reanalysis dataset.
+
+dc_raw : Drought code values representing the average DC for a given DOB from the ERA5 reanalysis dataset.
+
+dmc_raw: Duff moisture code values representing the average DMC for a given DOB from the ERA5 reanalysis dataset.
+
+ffm_raw: Fine fuel moisture code values representing the average FFM for a given DOB from the ERA5 reanalysis dataset.
+
+fwi_raw: Fire weather index values representing the average FWI for a given DOB from the ERA5 reanalysis dataset.
+
+isi_raw: Initial spread index values representing the average ISI for a given DOB from the ERA5 reanalysis dataset.
+
+tmax_raw: Maximum temperature values representing the average Tmax for a given DOB from the ERA5 reanalysis dataset.
+
+prec_raw: Accumulated precipitation values representing the average AP for a given DOB from the ERA5 reanalysis dataset.
+
+ws_raw: Wind speed values representing the average WS for a given DOB from the ERA5 reanalysis dataset.
+
+rh_raw: Relative humidity values representing the average RH for a given DOB from the ERA5 reanalysis dataset.
+
+Elev_raw: Elevation values representing the average elevation for a given DOB from the LANDFIRE dataset.
+
+Slp_raw: Slope values representing the average slope for a given DOB from the LANDFIRE dataset.
+
+Rugg_raw: A vector ruggedness measure (VRM) ranging from 0 to 1, representing the average topographic roughness for a given DOB from the USGS ScienceBase-Catalog.
+
+Northness: Northness values representing circularly transformed aspect measures averaged for a given DOB from the LANDFIRE dataset.
+
+Eastness: Eastness values representing circularly transformed aspect measures averaged for a given DOB from the LANDFIRE dataset.
+
+M_cwd_raw: Monthly climatic water deficit z-score values averaged for a given DOB from the TerraClimate dataset. Z-score values were developed by standardizing the fire ignition month relative to April–June averages for a 30-year reference period (1986–2015). Monthly z-scores emphasize site-specific annual climatic variation rather than absolute spatial variation.
+
+M_tmax_raw: Monthly maximum temperature z-score values averaged for a given DOB from the TerraClimate dataset. Z-score calculated as described above.
+
+M_vpd_raw: Monthly vapor pressure deficit z-score values averaged for a given DOB from the TerraClimate dataset. Z-score calculated as described above.
+
+DOY: Day of year (Julian)
+
+---
+Perimeter Analysis Data Description (Perimeter analysis.csv): 
+
+Group_Class: Same as described above for the spread analysis.
+
+Event_ID: Same as described above for the spread analysis.
+
+Int_Prop: Meaning interior proportion represents the proportion of that landcover type that is within a 60-meter buffer interior of the fire perimeter.
+
+Perim_Prop: Meaning perimeter proportion represents the proportion of that landcover type that is within a 60-meter buffer exterior of the fire perimeter.
+
+FPE: Fire Perimeter Effect values &lt;0 indicate a greater proportion of the cover type within the burn interior, and values &gt;0 represent a greater proportion at the perimeter.
+
+fwi_fire_mean: Fire weather index mean value for a given fire (specific to Event_ID). Data from the ERA5 reanalysis dataset. All raster pixels within the fire perimeter were calculated into a mean value for a given fire.
+
+fwi_ZScore: Fire weather index z-score value. Z-score values were developed by standardizing the fire ignition month relative to April–June averages for a 30-year reference period (1986–2015).
+
+cwd_ZScore: Climatic water deficit z-score value. Data from the TerraClimate dataset. Z-score calculated as described above.
+
+isi_ZScore: Initial spread index z-score value. Data from the ERA5 reanalysis dataset. Z-score calculated as described above.
+
+isi_fire_mean: Initial spread index mean value for a given fire (specific to Event_ID). Data from the ERA5 reanalysis dataset. All raster pixels within the fire perimeter were calculated into a mean value for a given fire.
+
+DOY: Day of year (Julian)</eaover>
+      <eadetcit>MntMattH. (2025). MntMattH/Aspen-Impedes-Wildfire-Spread: Data Repository for Harris et al. entitled "Aspen impedes wildfire spread in southwestern United States landscapes" (Version v3.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.15288635</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Zenodo</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>NA</address>
+          <city>NA</city>
+          <state>NA</state>
+          <postal>NA</postal>
+        </cntaddr>
+        <cntvoice>NA</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform><digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt><onlinopt><computer><networka><networkr>https://doi.org/10.5281/zenodo.15288635</networkr></networka></computer></onlinopt></digtopt></digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20260724</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Climate Adaptation Science Centers</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>12201 Sunrise Valley Dr</address>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>n/a</cntvoice>
+        <cntemail>casc-data@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
